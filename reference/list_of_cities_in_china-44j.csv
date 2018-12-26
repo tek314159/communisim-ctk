@@ -1,0 +1,661 @@
+SNo,City,Chinese,Province,Prefecture,Type,Founded
+,,,,,,(PRC)
+1,Beijing,北京市,municipal,none,Provincial-level municipality,1/10/1949
+2,Chongqing,重庆市,municipal,none,Provincial-level municipality,1/10/1949
+3,Shanghai,上海市,municipal,none,Provincial-level municipality,1/10/1949
+4,Tianjin,天津市,municipal,none,Provincial-level municipality,1/10/1949
+5,Hong Kong,香港特别行政区,autonomous,none,Special Administrative Region (SAR),1/7/1997
+6,Macau,澳门特别行政区,autonomous,none,Special Administrative Region (SAR),20-12-99
+7,Anqing,安庆市,Anhui,direct administration,Prefecture-level city,12/4/1952
+8,Bengbu,蚌埠市,Anhui,direct administration,Prefecture-level city,2/5/1952
+9,Bozhou,亳州市,Anhui,direct administration,Prefecture-level city,11/3/1986
+10,Chaohu,巢湖市,Anhui,Hefei,County-Level City,25-11-82
+11,Chizhou,池州市,Anhui,direct administration,Prefecture-level city,17-08-88
+12,Chuzhou,滁州市,Anhui,direct administration,Prefecture-level city,25-11-82
+13,Fuyang,阜阳市,Anhui,direct administration,Prefecture-level city,19-12-75
+14,Hefei,合肥市,Anhui,direct administration,Prefecture-level city,1/10/1949
+15,Huaibei,淮北市,Anhui,direct administration,Prefecture-level city,20-01-77
+16,Huainan,淮南市,Anhui,direct administration,Prefecture-level city,2/6/1952
+17,Huangshan,黄山市,Anhui,direct administration,Prefecture-level city,27-01-84
+18,Jieshou,界首市,Anhui,Fuyang,County-Level City,17-09-53
+19,Lu'an,六安市,Anhui,direct administration,Prefecture-level city,23-09-78
+20,Ma'anshan,马鞍山市,Anhui,direct administration,Prefecture-level city,2/7/1956
+21,Mingguang,明光市,Anhui,Chuzhou,County-Level City,31-05-94
+22,Ningguo,宁国市,Anhui,Xuancheng,County-Level City,11/3/1997
+23,Suzhou,宿州市,Anhui,direct administration,Prefecture-level city,17-09-53
+24,Tianchang,天长市,Anhui,Chuzhou,County-Level City,18-09-93
+25,Tongcheng,桐城市,Anhui,Anqing,County-Level City,20-08-96
+26,Tongling,铜陵市,Anhui,direct administration,Prefecture-level city,5/9/1958
+27,Wuhu,芜湖市,Anhui,direct administration,Prefecture-level city,1/10/1949
+28,Xuancheng,宣城市,Anhui,direct administration,Prefecture-level city,10/6/1987
+29,Changle,长乐市,Fujian,Fuzhou,County-Level City,18-02-94
+30,Fu'an,福安市,Fujian,Ningde,County-Level City,13-11-89
+31,Fuding,福鼎市,Fujian,Ningde,County-Level City,13-10-95
+32,Fuqing,福清市,Fujian,Fuzhou,County-Level City,26-12-90
+33,Fuzhou,福州市,Fujian,direct administration,Prefecture-level city,1/10/1949
+34,Jian'ou,建瓯市,Fujian,Nanping,County-Level City,20-10-92
+35,Jinjiang,晋江市,Fujian,Quanzhou,County-Level City,6/3/1992
+36,Longhai,龙海市,Fujian,Zhangzhou,County-Level City,12/5/1993
+37,Longyan,龙岩市,Fujian,direct administration,Prefecture-level city,21-09-81
+38,Nan'an,南安市,Fujian,Quanzhou,County-Level City,12/5/1993
+39,Nanping,南平市,Fujian,direct administration,Prefecture-level city,16-11-56
+40,Ningde,宁德市,Fujian,direct administration,Prefecture-level city,4/10/1988
+41,Putian,莆田市,Fujian,direct administration,Prefecture-level city,9/9/1983
+42,Quanzhou,泉州市,Fujian,direct administration,Prefecture-level city,1/11/1950
+43,Sanming,三明市,Fujian,direct administration,Prefecture-level city,26-05-60
+44,Shaowu,邵武市,Fujian,Nanping,County-Level City,17-08-83
+45,Shishi,石狮市,Fujian,Quanzhou,County-Level City,17-12-87
+46,Wuyishan,武夷山市,Fujian,Nanping,County-Level City,21-08-89
+47,Xiamen,厦门市,Fujian,direct administration,Prefecture-level city,1/10/1949
+48,Yong'an,永安市,Fujian,Sanming,County-Level City,12/9/1984
+49,Zhangzhou,漳州市,Fujian,direct administration,Prefecture-level city,1/11/1950
+50,Zhangping,漳平市,Fujian,Longyan,County-Level City,15-08-90
+51,Baiyin,白银市,Gansu,direct administration,Prefecture-level city,4/7/1958
+52,Dingxi,定西市,Gansu,direct administration,Prefecture-level city,4/4/2003
+53,Dunhuang,敦煌市,Gansu,Jiuquan,County-Level City,21-08-87
+54,Hezuo,合作市,Gansu,Gannan,County-Level City,28-05-96
+55,Jiayuguan,嘉峪关市,Gansu,direct administration,Prefecture-level city,19-07-65
+56,Jinchang,金昌市,Gansu,direct administration,Prefecture-level city,9/2/1981
+57,Jiuquan,酒泉市,Gansu,direct administration,Prefecture-level city,21-11-58
+58,Lanzhou,兰州市,Gansu,direct administration,Prefecture-level city,1/10/1949
+59,Linxia,临夏市,Gansu,Linxia,County-Level City,5/2/1950
+60,Longnan,陇南市,Gansu,direct administration,Prefecture-level city,11/1/2004
+61,Pingliang,平凉市,Gansu,direct administration,Prefecture-level city,5/2/1950
+62,Qingyang,庆阳市,Gansu,direct administration,Prefecture-level city,22-06-02
+63,Tianshui,天水市,Gansu,direct administration,Prefecture-level city,5/2/1950
+64,Wuwei,武威市,Gansu,direct administration,Prefecture-level city,17-12-86
+65,Yumen,玉门市,Gansu,Jiuquan,County-Level City,26-12-55
+66,Zhangye,张掖市,Gansu,direct administration,Prefecture-level city,14-05-85
+67,Chaozhou,潮州市,Guangdong,direct administration,Prefecture-level city,1/7/1953
+68,Dongguan,东莞市,Guangdong,direct administration,Prefecture-level city,5/9/1985
+69,Enping,恩平市,Guangdong,Jiangmen,County-Level City,28-02-94
+70,Foshan,佛山市,Guangdong,direct administration,Prefecture-level city,1/10/1949
+71,Gaozhou,高州市,Guangdong,Maoming,County-Level City,8/6/1993
+72,Guangzhou,广州市,Guangdong,direct administration,Prefecture-level city,1/10/1949
+73,Heshan,鹤山市,Guangdong,Jiangmen,County-Level City,8/11/1993
+74,Heyuan,河源市,Guangdong,direct administration,Prefecture-level city,7/1/1988
+75,Huazhou,化州市,Guangdong,Maoming,County-Level City,4/7/1994
+76,Huizhou,惠州市,Guangdong,direct administration,Prefecture-level city,8/4/1958
+77,Jiangmen,江门市,Guangdong,direct administration,Prefecture-level city,1/10/1949
+78,Jieyang,揭阳市,Guangdong,direct administration,Prefecture-level city,7/12/1991
+79,Kaiping,开平市,Guangdong,Jiangmen,County-Level City,5/1/1993
+80,Lechang,乐昌市,Guangdong,Shaoguan,County-Level City,28-04-94
+81,Leizhou,雷州市,Guangdong,Zhanjiang,County-Level City,26-04-94
+82,Lianjiang,廉江市,Guangdong,Zhanjiang,County-Level City,10/12/1993
+83,Lianzhou,连州市,Guangdong,Qingyuan,County-Level City,22-04-94
+84,Lufeng,陆丰市,Guangdong,Shanwei,County-Level City,19-01-95
+85,Luoding,罗定市,Guangdong,Yunfu,County-Level City,8/4/1993
+86,Maoming,茂名市,Guangdong,direct administration,Prefecture-level city,22-03-59
+87,Meizhou,梅州市,Guangdong,direct administration,Prefecture-level city,30-12-78
+88,Nanxiong,南雄市,Guangdong,Shaoguan,County-Level City,17-06-96
+89,Puning,普宁市,Guangdong,Jieyang,County-Level City,6/4/1993
+90,Qingyuan,清远市,Guangdong,direct administration,Prefecture-level city,7/1/1988
+91,Shantou,汕头市,Guangdong,direct administration,Prefecture-level city,1/10/1949
+92,Shanwei,汕尾市,Guangdong,direct administration,Prefecture-level city,7/1/1988
+93,Shaoguan,韶关市,Guangdong,direct administration,Prefecture-level city,1/10/1949
+94,Shenzhen,深圳市,Guangdong,direct administration,Prefecture-level city,5/3/1979
+95,Sihui,四会市,Guangdong,Zhaoqing,County-Level City,25-11-93
+96,Taishan,台山市,Guangdong,Jiangmen,County-Level City,17-04-92
+97,Wuchuan,吴川市,Guangdong,Zhanjiang,County-Level City,26-05-94
+98,Xingning,兴宁市,Guangdong,Meizhou,County-Level City,6/6/1994
+99,Xinyi,信宜市,Guangdong,Maoming,County-Level City,11/9/1995
+100,Yangchun,阳春市,Guangdong,Yangjiang,County-Level City,5/5/1994
+101,Yangjiang,阳江市,Guangdong,direct administration,Prefecture-level city,7/1/1988
+102,Yingde,英德市,Guangdong,Qingyuan,County-Level City,12/1/1994
+103,Yunfu,云浮市,Guangdong,direct administration,Prefecture-level city,3/9/1992
+104,Zhanjiang,湛江市,Guangdong,direct administration,Prefecture-level city,1/10/1949
+105,Zhaoqing,肇庆市,Guangdong,direct administration,Prefecture-level city,1/10/1949
+106,Zhongshan,中山市,Guangdong,direct administration,Prefecture-level city,22-12-83
+107,Zhuhai,珠海市,Guangdong,direct administration,Prefecture-level city,5/3/1979
+108,Baise,百色市,Guangxi,direct administration,Prefecture-level city,8/10/1983
+109,Beihai,北海市,Guangxi,direct administration,Prefecture-level city,1/8/1950
+110,Beiliu,北流市,Guangxi,"Yulin, Guangxi",County-Level City,18-04-94
+111,Cenxi,岑溪市,Guangxi,Wuzhou,County-Level City,11/9/1995
+112,Chongzuo,崇左市,Guangxi,direct administration,Prefecture-level city,23-12-02
+113,Dongxing,东兴市,Guangxi,Fangchenggang,County-Level City,29-04-96
+114,Fangchenggang,防城港市,Guangxi,direct administration,Prefecture-level city,23-05-93
+115,Guigang,贵港市,Guangxi,direct administration,Prefecture-level city,27-12-88
+116,Guilin,桂林市,Guangxi,direct administration,Prefecture-level city,1/10/1949
+117,Guiping,桂平市,Guangxi,Guigang,County-Level City,18-05-94
+118,Hechi,河池市,Guangxi,direct administration,Prefecture-level city,8/10/1983
+119,Heshan,合山市,Guangxi,Laibin,County-Level City,29-06-81
+120,Hezhou,贺州市,Guangxi,direct administration,Prefecture-level city,27-02-97
+121,Laibin,来宾市,Guangxi,direct administration,Prefecture-level city,29-09-02
+122,Liuzhou,柳州市,Guangxi,direct administration,Prefecture-level city,1/10/1949
+123,Nanning,南宁市,Guangxi,direct administration,Prefecture-level city,1/10/1949
+124,Pingxiang,凭祥市,Guangxi,Chongzuo,County-Level City,16-11-56
+125,Qinzhou,钦州市,Guangxi,direct administration,Prefecture-level city,8/10/1983
+126,Wuzhou,梧州市,Guangxi,direct administration,Prefecture-level city,1/10/1949
+127,"Yulin, Guangxi",玉林市,Guangxi,direct administration,Prefecture-level city,8/10/1983
+128,Yizhou,宜州市,Guangxi,Hechi,County-Level City,9/9/1993
+129,Anshun,安顺市,Guizhou,direct administration,Prefecture-level city,29-05-58
+130,Bijie,毕节市,Guizhou,direct administration,Prefecture-level city,10/12/1993
+131,Chishui,赤水市,Guizhou,Zunyi,County-Level City,3/2/1990
+132,Duyun,都匀市,Guizhou,Qiannan,County-Level City,29-05-58
+133,Fuquan,福泉市,Guizhou,Qiannan,County-Level City,2/12/1996
+134,Guiyang,贵阳市,Guizhou,direct administration,Prefecture-level city,1/10/1949
+135,Kaili,凯里市,Guizhou,Qiandongnan,County-Level City,19-08-83
+136,Liupanshui,六盘水市,Guizhou,direct administration,Prefecture-level city,18-12-78
+137,Qingzhen,清镇市,Guizhou,Guiyang,County-Level City,6/11/1992
+138,Renhuai,仁怀市,Guizhou,Zunyi,County-Level City,30-11-96
+139,Tongren,铜仁市,Guizhou,direct administration,Prefecture-level city,21-08-87
+140,Xingyi,兴义市,Guizhou,Qianxinan,County-Level City,6/11/1987
+141,Zunyi,遵义市,Guizhou,direct administration,Prefecture-level city,1/1/1950
+142,Danzhou,儋州市,Hainan,direct administration,Prefecture-level city,3/3/1993
+143,Dongfang,东方市,Hainan,none,County-Level City,12/3/1997
+144,Haikou,海口市,Hainan,direct administration,Prefecture-level city,1/5/1950
+145,Qionghai,琼海市,Hainan,none,County-Level City,6/11/1992
+146,Sansha,三沙市,Hainan,direct administration,Prefecture-level city,21-06-12
+147,Sanya,三亚市,Hainan,direct administration,Prefecture-level city,19-05-84
+148,Wanning,万宁市,Hainan,none,County-Level City,5/8/1996
+149,Wenchang,文昌市,Hainan,none,County-Level City,7/11/1995
+150,Wuzhishan,五指山市,Hainan,none,County-Level City,12/6/1986
+151,Anguo,安国市,Hebei,Baoding,County-Level City,6/5/1991
+152,Baoding,保定市,Hebei,direct administration,Prefecture-level city,1/10/1949
+153,Bazhou,霸州市,Hebei,Langfang,County-Level City,6/11/1953
+154,Botou,泊头市,Hebei,Cangzhou,County-Level City,1/10/1949
+155,Cangzhou,沧州市,Hebei,direct administration,Prefecture-level city,9/7/1961
+156,Chengde,承德市,Hebei,direct administration,Prefecture-level city,1/10/1949
+157,Dingzhou,定州市,Hebei,Baoding,County-Level City,5/3/1986
+158,Gaobeidian,高碑店市,Hebei,Baoding,County-Level City,9/4/1993
+159,Handan,邯郸市,Hebei,direct administration,Prefecture-level city,8/11/1952
+160,Hengshui,衡水市,Hebei,direct administration,Prefecture-level city,30-01-82
+161,Hejian,河间市,Hebei,Cangzhou,County-Level City,18-10-90
+162,Huanghua,黄骅市,Hebei,Cangzhou,County-Level City,27-07-89
+163,Jinzhou,晋州市,Hebei,Shijiazhuang,County-Level City,30-11-91
+164,Jizhou,冀州市,Hebei,Hengshui,County-Level City,22-09-93
+165,Langfang,廊坊市,Hebei,direct administration,Prefecture-level city,7/12/1981
+166,Luquan,鹿泉市,Hebei,Shijiazhuang,--,18-05-94
+167,Nangong,南宫市,Hebei,Xingtai,County-Level City,5/3/1986
+168,Qian'an,迁安市,Hebei,Tangshan,County-Level City,10/10/1996
+169,Qinhuangdao,秦皇岛市,Hebei,direct administration,Prefecture-level city,1/10/1949
+170,Renqiu,任丘市,Hebei,Cangzhou,County-Level City,5/3/1986
+171,Shahe,沙河市,Hebei,Xingtai,County-Level City,20-02-87
+172,Sanhe,三河市,Hebei,Langfang,County-Level City,3/3/1993
+173,Shenzhou,深州市,Hebei,Hengshui,County-Level City,4/7/1994
+174,Shijiazhuang,石家庄市,Hebei,direct administration,Prefecture-level city,1/10/1949
+175,Tangshan,唐山市,Hebei,direct administration,Prefecture-level city,1/10/1949
+176,Xinji,辛集市,Hebei,Shijiazhuang,County-Level City,5/3/1986
+177,Wu'an,武安市,Hebei,Handan,County-Level City,1/9/1988
+178,Xingtai,邢台市,Hebei,direct administration,Prefecture-level city,6/11/1953
+179,Xinle,新乐市,Hebei,Shijiazhuang,County-Level City,8/10/1992
+180,Zhangjiakou,张家口市,Hebei,direct administration,Prefecture-level city,1/10/1949
+181,Zhuozhou,涿州市,Hebei,Baoding,County-Level City,24-09-86
+182,Zunhua,遵化市,Hebei,Tangshan,County-Level City,17-02-92
+183,Anda,安达市,Heilongjiang,Suihua,County-Level City,26-05-60
+184,Bei'an,北安市,Heilongjiang,Heihe,County-Level City,7/1/1960
+185,Daqing,大庆市,Heilongjiang,direct administration,Prefecture-level city,14-12-79
+186,Fujin,富锦市,Heilongjiang,Jiamusi,County-Level City,30-08-88
+187,Hailin,海林市,Heilongjiang,Mudanjiang,County-Level City,28-07-92
+188,Hailun,海伦市,Heilongjiang,Suihua,County-Level City,23-12-89
+189,Harbin,哈尔滨市,Heilongjiang,direct administration,Prefecture-level city,1/10/1949
+190,Hegang,鹤岗市,Heilongjiang,direct administration,Prefecture-level city,1/10/1949
+191,Heihe,黑河市,Heilongjiang,direct administration,Prefecture-level city,15-11-80
+192,Hulin,虎林市,Heilongjiang,Jixi,County-Level City,11/10/1996
+193,Jiamusi,佳木斯市,Heilongjiang,direct administration,Prefecture-level city,1/10/1949
+194,Jixi,鸡西市,Heilongjiang,direct administration,Prefecture-level city,18-12-56
+195,Mishan,密山市,Heilongjiang,Jixi,County-Level City,17-11-88
+196,Mudanjiang,牡丹江市,Heilongjiang,direct administration,Prefecture-level city,1/10/1949
+197,Muling,穆棱市,Heilongjiang,Mudanjiang,County-Level City,7/3/1995
+198,Nehe,讷河市,Heilongjiang,Qiqihar,County-Level City,2/9/1992
+199,Ning'an,宁安市,Heilongjiang,Mudanjiang,County-Level City,12/2/1993
+200,Qiqihar,齐齐哈尔市,Heilongjiang,direct administration,Prefecture-level city,1/10/1949
+201,Qitaihe,七台河市,Heilongjiang,direct administration,Prefecture-level city,1/4/1970
+202,Shangzhi,尚志市,Heilongjiang,Harbin,County-Level City,14-09-88
+203,Shuangyashan,双鸭山市,Heilongjiang,direct administration,Prefecture-level city,25-05-56
+204,Suifenhe,绥芬河市,Heilongjiang,Mudanjiang,County-Level City,15-08-75
+205,Suihua,绥化市,Heilongjiang,direct administration,Prefecture-level city,18-12-82
+206,Tieli,铁力市,Heilongjiang,Yichun,County-Level City,13-09-88
+207,Tongjiang,同江市,Heilongjiang,Jiamusi,County-Level City,24-02-87
+208,Wuchang,五常市,Heilongjiang,Harbin,County-Level City,1/6/1993
+209,Wudalianchi,五大连池市,Heilongjiang,Heihe,County-Level City,8/10/1983
+210,Yichun,伊春市,Heilongjiang,direct administration,Prefecture-level city,26-07-57
+211,Zhaodong,肇东市,Heilongjiang,Suihua,County-Level City,8/9/1986
+212,Anyang,安阳市,Henan,direct administration,Prefecture-level city,1/10/1949
+213,Changge,长葛市,Henan,Xuchang,County-Level City,14-12-93
+214,Dengfeng,登封市,Henan,Zhengzhou,County-Level City,30-05-94
+215,Dengzhou,邓州市,Henan,Nanyang,County-Level City,17-11-88
+216,Gongyi,巩义市,Henan,Zhengzhou,County-Level City,12/6/1991
+217,Hebi,鹤壁市,Henan,direct administration,Prefecture-level city,27-06-57
+218,Huixian,辉县市,Henan,Xinxiang,County-Level City,11/10/1988
+219,Jiaozuo,焦作市,Henan,direct administration,Prefecture-level city,9/7/1956
+220,Jiyuan,济源市,Henan,none,County-Level City,25-06-88
+221,Kaifeng,开封市,Henan,direct administration,Prefecture-level city,1/10/1949
+222,Lingbao,灵宝市,Henan,Sanmenxia,County-Level City,12/5/1993
+223,Linzhou,林州市,Henan,Anyang,County-Level City,24-01-94
+224,Luohe,漯河市,Henan,direct administration,Prefecture-level city,1/10/1949
+225,Luoyang,洛阳市,Henan,direct administration,Prefecture-level city,1/10/1949
+226,Mengzhou,孟州市,Henan,Jiaozuo,County-Level City,29-04-96
+227,Nanyang,南阳市,Henan,direct administration,Prefecture-level city,1/10/1949
+228,Pingdingshan,平顶山市,Henan,direct administration,Prefecture-level city,26-03-57
+229,Puyang,濮阳市,Henan,direct administration,Prefecture-level city,1/9/1983
+230,Qinyang,沁阳市,Henan,Jiaozuo,County-Level City,27-09-89
+231,Ruzhou,汝州市,Henan,Pingdingshan,County-Level City,25-06-88
+232,Sanmenxia,三门峡市,Henan,direct administration,Prefecture-level city,23-01-57
+233,Shangqiu,商丘市,Henan,direct administration,Prefecture-level city,3/5/1950
+234,Weihui,卫辉市,Henan,Xinxiang,County-Level City,8/10/1988
+235,Wugang,舞钢市,Henan,Pingdingshan,County-Level City,4/9/1990
+236,Xiangcheng,项城市,Henan,Zhoukou,County-Level City,16-12-93
+237,Xingyang,荥阳市,Henan,Zhengzhou,County-Level City,1/10/1949
+238,Xinmi,新密市,Henan,Zhengzhou,County-Level City,5/4/1994
+239,Xinxiang,新乡市,Henan,direct administration,Prefecture-level city,1/10/1949
+240,Xinyang,信阳市,Henan,direct administration,Prefecture-level city,5/4/1994
+241,Xinzheng,新郑市,Henan,Zhengzhou,County-Level City,16-05-94
+242,Xuchang,许昌市,Henan,direct administration,Prefecture-level city,1/10/1949
+243,Yanshi,偃师市,Henan,Luoyang,County-Level City,15-12-93
+244,Yima,义马市,Henan,Sanmenxia,County-Level City,4/4/1981
+245,Yongcheng,永城市,Henan,Shangqiu,County-Level City,11/10/1996
+246,Yuzhou,禹州市,Henan,Xuchang,County-Level City,25-06-88
+247,Zhengzhou,郑州市,Henan,direct administration,Prefecture-level city,1/10/1949
+248,Zhoukou,周口市,Henan,direct administration,Prefecture-level city,1/10/1949
+249,Zhumadian,驻马店市,Henan,direct administration,Prefecture-level city,1/10/1949
+250,Anlu,安陆市,Hubei,Xiaogan,County-Level City,4/9/1987
+251,Chibi,赤壁市,Hubei,Xianning,County-Level City,27-05-86
+252,Dangyang,当阳市,Hubei,Yichang,County-Level City,22-10-88
+253,Danjiangkou,丹江口市,Hubei,Shiyan,County-Level City,19-08-83
+254,Daye,大冶市,Hubei,Huangshi,County-Level City,18-02-94
+255,Enshi,恩施市,Hubei,Enshi,County-Level City,7/11/1981
+256,Ezhou,鄂州市,Hubei,direct administration,Prefecture-level city,19-08-83
+257,Guangshui,广水市,Hubei,Suizhou,County-Level City,11/10/1988
+258,Hanchuan,汉川市,Hubei,Xiaogan,County-Level City,12/3/1997
+259,Honghu,洪湖市,Hubei,Jingzhou,County-Level City,31-07-87
+260,Huanggang,黄冈市,Hubei,direct administration,Prefecture-level city,26-12-90
+261,Huangshi,黄石市,Hubei,direct administration,Prefecture-level city,30-08-50
+262,Jingmen,荆门市,Hubei,direct administration,Prefecture-level city,16-11-79
+263,Jingzhou,荆州市,Hubei,direct administration,Prefecture-level city,29-09-94
+264,Laohekou,老河口市,Hubei,Xiangyang,County-Level City,1/8/1951
+265,Lichuan,利川市,Hubei,Enshi,County-Level City,27-05-86
+266,Macheng,麻城市,Hubei,Huanggang,County-Level City,27-05-86
+267,Qianjiang,潜江市,Hubei,none,County-Level City,25-05-88
+268,Shennongjia,神农架林区,Hubei,none,--,28-05-70
+269,Shishou,石首市,Hubei,Jingzhou,County-Level City,16-11-79
+270,Shiyan,十堰市,Hubei,direct administration,Prefecture-level city,24-11-69
+271,Suizhou,随州市,Hubei,direct administration,Prefecture-level city,25-06-00
+272,Songzi,松滋市,Hubei,Jingzhou,County-Level City,29-12-95
+273,Tianmen,天门市,Hubei,none,County-Level City,3/8/1987
+274,Wuhan,武汉市,Hubei,direct administration,Prefecture-level city,1/10/1949
+275,Wuxue,武穴市,Hubei,Huanggang,County-Level City,23-10-87
+276,Xiangyang,襄阳市,Hubei,direct administration,Prefecture-level city,1/6/1951
+277,Xianning,咸宁市,Hubei,direct administration,Prefecture-level city,19-08-83
+278,Xiantao,仙桃市,Hubei,none,County-Level City,27-05-86
+279,Xiaogan,孝感市,Hubei,direct administration,Prefecture-level city,19-08-83
+280,Yichang,宜昌市,Hubei,direct administration,Prefecture-level city,1/10/1949
+281,Yicheng,宜城市,Hubei,Xiangyang,County-Level City,10/6/1994
+282,Yidu,宜都市,Hubei,Yichang,County-Level City,30-11-87
+283,Yingcheng,应城市,Hubei,Xiaogan,County-Level City,27-05-86
+284,Zaoyang,枣阳市,Hubei,Xiangyang,County-Level City,8/1/1988
+285,Zhijiang,枝江市,Hubei,Yichang,County-Level City,30-07-96
+286,Zhongxiang,钟祥市,Hubei,Jingmen,County-Level City,20-05-92
+287,Changde,常德市,Hunan,direct administration,Prefecture-level city,19-10-50
+288,Changning,常宁市,Hunan,Hengyang,County-Level City,26-11-96
+289,Changsha,长沙市,Hunan,direct administration,Prefecture-level city,1/10/1949
+290,Chenzhou,郴州市,Hunan,direct administration,Prefecture-level city,15-08-60
+291,Hengyang,衡阳市,Hunan,direct administration,Prefecture-level city,1/10/1949
+292,Hongjiang,洪江市,Hunan,Huaihua,County-Level City,19-10-50
+293,Huaihua,怀化市,Hunan,direct administration,Prefecture-level city,4/4/1979
+294,Jinshi,津市市,Hunan,Changde,County-Level City,19-10-50
+295,Jishou,吉首市,Hunan,Xiangxi,County-Level City,3/8/1982
+296,Leiyang,耒阳市,Hunan,Hengyang,County-Level City,11/11/1986
+297,Lengshuijiang,冷水江市,Hunan,Loudi,County-Level City,10/10/1969
+298,Lianyuan,涟源市,Hunan,Loudi,County-Level City,10/6/1987
+299,Liling,醴陵市,Hunan,Zhuzhou,County-Level City,24-05-85
+300,Linxiang,临湘市,Hunan,Yueyang,County-Level City,1/9/1992
+301,Liuyang,浏阳市,Hunan,Changsha,County-Level City,16-01-93
+302,Loudi,娄底市,Hunan,direct administration,Prefecture-level city,9/7/1961
+303,Miluo,汨罗市,Hunan,Yueyang,County-Level City,23-09-87
+304,Shaoshan,韶山市,Hunan,Xiangtan,County-Level City,26-12-90
+305,Shaoyang,邵阳市,Hunan,direct administration,Prefecture-level city,19-10-50
+306,Wugang,武冈市,Hunan,Shaoyang,County-Level City,18-02-94
+307,Xiangtan,湘潭市,Hunan,direct administration,Prefecture-level city,19-10-50
+308,Xiangxiang,湘乡市,Hunan,Xiangtan,County-Level City,12/9/1986
+309,Yiyang,益阳市,Hunan,direct administration,Prefecture-level city,19-10-50
+310,Yongzhou,永州市,Hunan,direct administration,Prefecture-level city,23-01-82
+311,Yuanjiang,沅江市,Hunan,Yiyang,County-Level City,11/10/1988
+312,Yueyang,岳阳市,Hunan,direct administration,Prefecture-level city,9/7/1961
+313,Zhangjiajie,张家界市,Hunan,direct administration,Prefecture-level city,24-05-85
+314,Zhuzhou,株洲市,Hunan,direct administration,Prefecture-level city,6/6/1951
+315,Zixing,资兴市,Hunan,Chenzhou,County-Level City,20-12-84
+316,Arxan,阿尔山市,Inner Mongolia,Hinggan,County-Level City,10/6/1996
+317,Baotou,包头市,Inner Mongolia,direct administration,Prefecture-level city,13-02-50
+318,Bayannur,巴彦淖尔市,Inner Mongolia,direct administration,Prefecture-level city,1/12/2003
+319,Chifeng,赤峰市,Inner Mongolia,direct administration,Prefecture-level city,1/10/1949
+320,Erenhot,二连浩特市,Inner Mongolia,Xilingol,County-Level City,18-01-66
+321,Fengzhen,丰镇市,Inner Mongolia,Ulanqab,County-Level City,15-11-90
+322,Ergun,额尔古纳市,Inner Mongolia,Hulunbuir,County-Level City,13-07-94
+323,Genhe,根河市,Inner Mongolia,Hulunbuir,County-Level City,28-04-94
+324,Hohhot,呼和浩特市,Inner Mongolia,direct administration,Prefecture-level city,23-01-50
+325,Holingol,霍林郭勒市,Inner Mongolia,Tongliao,County-Level City,9/11/1985
+326,Hulunbuir,呼伦贝尔市,Inner Mongolia,direct administration,Prefecture-level city,10/10/2001
+327,Manzhouli,满洲里市,Inner Mongolia,Hulunbuir,County-Level City,1/10/1949
+328,Ordos,鄂尔多斯市,Inner Mongolia,direct administration,Prefecture-level city,26-02-01
+329,Tongliao,通辽市,Inner Mongolia,direct administration,Prefecture-level city,17-07-51
+330,Ulanhot,乌兰浩特市,Inner Mongolia,Hinggan,County-Level City,1/10/1949
+331,Ulanqab,乌兰察布市,Inner Mongolia,direct administration,Prefecture-level city,1/12/2003
+332,Wuhai,乌海市,Inner Mongolia,direct administration,Prefecture-level city,1/12/2003
+333,Xilinhot,锡林浩特市,Inner Mongolia,Xilingol,County-Level City,10/10/1983
+334,Yakeshi,牙克石市,Inner Mongolia,Hulunbuir,County-Level City,10/10/1983
+335,Zhalantun,扎兰屯市,Inner Mongolia,Hulunbuir,County-Level City,10/10/1983
+336,Changshu,常熟市,Jiangsu,Suzhou,County-Level City,1/10/1949
+337,Changzhou,常州市,Jiangsu,direct administration,Prefecture-level city,28-11-49
+338,Dafeng,大丰市,Jiangsu,Yancheng,County-Level City,1/8/1996
+339,Danyang,丹阳市,Jiangsu,Zhenjiang,County-Level City,15-12-87
+340,Dongtai,东台市,Jiangsu,Yancheng,County-Level City,17-12-87
+341,Gaoyou,高邮市,Jiangsu,Yangzhou,County-Level City,6/2/1991
+342,Haimen,海门市,Jiangsu,Nantong,County-Level City,26-04-94
+343,Huai'an,淮安市,Jiangsu,direct administration,Prefecture-level city,22-12-87
+344,Jiangyin,江阴市,Jiangsu,Wuxi,County-Level City,23-04-87
+345,Jingjiang,靖江市,Jiangsu,Taizhou,County-Level City,14-07-93
+346,Jurong,句容市,Jiangsu,Zhenjiang,County-Level City,6/4/1995
+347,Liyang,溧阳市,Jiangsu,Changzhou,County-Level City,15-08-90
+348,Lianyungang,连云港市,Jiangsu,direct administration,Prefecture-level city,1/10/1949
+349,Kunshan,昆山市,Jiangsu,Suzhou,County-Level City,27-07-89
+350,Nanjing,南京市,Jiangsu,direct administration,Prefecture-level city,1/10/1949
+351,Nantong,南通市,Jiangsu,direct administration,Prefecture-level city,12/5/1950
+352,Pizhou,邳州市,Jiangsu,Xuzhou,County-Level City,7/7/1992
+353,Qidong,启东市,Jiangsu,Nantong,County-Level City,13-11-89
+354,Rugao,如皋市,Jiangsu,Nantong,County-Level City,6/2/1991
+355,Suqian,宿迁市,Jiangsu,direct administration,Prefecture-level city,15-12-87
+356,Suzhou,苏州市,Jiangsu,direct administration,Prefecture-level city,28-11-49
+357,Taicang,太仓市,Jiangsu,Suzhou,County-Level City,8/1/1993
+358,Taizhou,泰州市,Jiangsu,direct administration,Prefecture-level city,1/10/1949
+359,Taixing,泰兴市,Jiangsu,Taizhou,County-Level City,21-09-92
+360,Wuxi,无锡市,Jiangsu,direct administration,Prefecture-level city,1/10/1949
+361,Xinyi,新沂市,Jiangsu,Xuzhou,County-Level City,5/2/1990
+362,Xinghua,兴化市,Jiangsu,Taizhou,County-Level City,22-12-87
+363,Xuzhou,徐州市,Jiangsu,direct administration,Prefecture-level city,1/10/1949
+364,Yancheng,盐城市,Jiangsu,direct administration,Prefecture-level city,18-01-83
+365,Yangzhong,扬中市,Jiangsu,Zhenjiang,County-Level City,18-05-94
+366,Yangzhou,扬州市,Jiangsu,direct administration,Prefecture-level city,8/8/1950
+367,Yixing,宜兴市,Jiangsu,Wuxi,County-Level City,9/1/1988
+368,Yizheng,仪征市,Jiangsu,Yangzhou,County-Level City,21-04-86
+369,Zhangjiagang,张家港市,Jiangsu,Suzhou,County-Level City,16-09-86
+370,Zhenjiang,镇江市,Jiangsu,direct administration,Prefecture-level city,28-11-49
+371,Dexing,德兴市,Jiangxi,Shangrao,County-Level City,26-12-90
+372,Fengcheng,丰城市,Jiangxi,Yichun,County-Level City,4/10/1988
+373,Fuzhou,抚州市,Jiangxi,direct administration,Prefecture-level city,23-06-00
+374,Ganzhou,赣州市,Jiangxi,direct administration,Prefecture-level city,1/10/1949
+375,Gao'an,高安市,Jiangxi,Yichun,County-Level City,8/12/1993
+376,Guixi,贵溪市,Jiangxi,Yingtan,County-Level City,28-05-96
+377,Ji'an,吉安市,Jiangxi,direct administration,Prefecture-level city,23-11-50
+378,Jingdezhen,景德镇市,Jiangxi,direct administration,Prefecture-level city,1/10/1949
+379,Jinggangshan,井冈山市,Jiangxi,Ji'an,County-Level City,13-12-84
+380,Jiujiang,九江市,Jiangxi,direct administration,Prefecture-level city,1/10/1949
+381,Leping,乐平市,Jiangxi,Jingdezhen,County-Level City,27-07-92
+382,Nanchang,南昌市,Jiangxi,direct administration,Prefecture-level city,1/10/1949
+383,Pingxiang,萍乡市,Jiangxi,direct administration,Prefecture-level city,30-09-60
+384,Ruichang,瑞昌市,Jiangxi,Jiujiang,County-Level City,20-12-89
+385,Ruijin,瑞金市,Jiangxi,Ganzhou,County-Level City,20-12-89
+386,Shangrao,上饶市,Jiangxi,direct administration,Prefecture-level city,23-11-50
+387,Xinyu,新余市,Jiangxi,direct administration,Prefecture-level city,30-09-60
+388,Yingtan,鹰潭市,Jiangxi,direct administration,Prefecture-level city,9/3/1979
+389,Yichun,宜春市,Jiangxi,direct administration,Prefecture-level city,8/10/1979
+390,Zhangshu,樟树市,Jiangxi,Yichun,County-Level City,13-10-88
+391,Baicheng,白城市,Jilin,direct administration,Prefecture-level city,21-11-58
+392,Baishan,白山市,Jilin,direct administration,Prefecture-level city,7/1/1960
+393,Changchun,长春市,Jilin,direct administration,Prefecture-level city,1/10/1949
+394,Da'an,大安市,Jilin,Baicheng,County-Level City,30-08-88
+395,Dehui,德惠市,Jilin,Changchun,County-Level City,6/7/1994
+396,Dunhua,敦化市,Jilin,Yanbian,County-Level City,28-02-85
+397,Fuyu,扶余市,Jilin,Songyuan,County-Level City,24-01-13
+398,Gongzhuling,公主岭市,Jilin,Siping,County-Level City,12/10/1956
+399,Helong,和龙市,Jilin,Yanbian,County-Level City,5/7/1993
+400,Huadian,桦甸市,Jilin,Jilin,County-Level City,25-05-88
+401,Hunchun,珲春市,Jilin,Yanbian,County-Level City,25-05-88
+402,Ji'an,集安市,Jilin,Tonghua,County-Level City,16-03-88
+403,Jiaohe,蛟河市,Jilin,Jilin,County-Level City,15-08-89
+404,Jilin,吉林市,Jilin,direct administration,Prefecture-level city,1/10/1949
+405,Liaoyuan,辽源市,Jilin,direct administration,Prefecture-level city,1/10/1949
+406,Linjiang,临江市,Jilin,Baishan,County-Level City,28-11-93
+407,Longjing,龙井市,Jilin,Yanbian,County-Level City,25-05-88
+408,Meihekou,梅河口市,Jilin,Tonghua,County-Level City,19-12-85
+409,Panshi,磐石市,Jilin,Jilin,County-Level City,30-08-95
+410,Shuangliao,双辽市,Jilin,Siping,County-Level City,29-04-96
+411,Shulan,舒兰市,Jilin,Jilin,County-Level City,8/10/1992
+412,Siping,四平市,Jilin,direct administration,Prefecture-level city,1/10/1949
+413,Songyuan,松原市,Jilin,direct administration,Prefecture-level city,6/6/1992
+414,Taonan,洮南市,Jilin,Baicheng,County-Level City,21-05-87
+415,Tonghua,通化市,Jilin,direct administration,Prefecture-level city,1/10/1949
+416,Tumen,图们市,Jilin,Yanbian,County-Level City,27-03-65
+417,Yanji,延吉市,Jilin,Yanbian,County-Level City,4/5/1953
+418,Yushu,榆树市,Jilin,Changchun,County-Level City,26-12-90
+419,Anshan,鞍山市,Liaoning,direct administration,Prefecture-level city,1/10/1949
+420,Benxi,本溪市,Liaoning,direct administration,Prefecture-level city,1/10/1949
+421,Beipiao,北票市,Liaoning,Chaoyang,County-Level City,17-01-85
+422,Beizhen,北镇市,Liaoning,Jinzhou,County-Level City,21-03-95
+423,Chaoyang,朝阳市,Liaoning,direct administration,Prefecture-level city,20-12-58
+424,Dalian,大连市,Liaoning,direct administration,Prefecture-level city,1/10/1949
+425,Dandong,丹东市,Liaoning,direct administration,Prefecture-level city,1/10/1949
+426,Dashiqiao,大石桥市,Liaoning,Yingkou,County-Level City,3/11/1992
+427,Dengta,灯塔市,Liaoning,Liaoyang,County-Level City,27-08-96
+428,Diaobingshan,调兵山市,Liaoning,Tieling,County-Level City,9/2/1981
+429,Donggang,东港市,Liaoning,Dandong,County-Level City,18-06-93
+430,Fengcheng,凤城市,Liaoning,Dandong,County-Level City,8/3/1994
+431,Fushun,抚顺市,Liaoning,direct administration,Prefecture-level city,1/10/1949
+432,Fuxin,阜新市,Liaoning,direct administration,Prefecture-level city,1/10/1949
+433,Gaizhou,盖州市,Liaoning,Yingkou,County-Level City,3/11/1992
+434,Haicheng,海城市,Liaoning,Anshan,County-Level City,17-01-85
+435,Huludao,葫芦岛市,Liaoning,direct administration,Prefecture-level city,11/9/1956
+436,Jinzhou,锦州市,Liaoning,direct administration,Prefecture-level city,1/10/1949
+437,Kaiyuan,开原市,Liaoning,Tieling,County-Level City,27-12-88
+438,Liaoyang,辽阳市,Liaoning,direct administration,Prefecture-level city,1/10/1949
+439,Linghai,凌海市,Liaoning,Jinzhou,County-Level City,16-11-93
+440,Lingyuan,凌源市,Liaoning,Chaoyang,County-Level City,21-12-91
+441,Panjin,盘锦市,Liaoning,direct administration,Prefecture-level city,5/6/1984
+442,Pulandian,普兰店市,Liaoning,Dalian,County-Level City,30-11-91
+443,Shenyang,沈阳市,Liaoning,direct administration,Prefecture-level city,1/10/1949
+444,Tieling,铁岭市,Liaoning,direct administration,Prefecture-level city,30-08-79
+445,Wafangdian,瓦房店市,Liaoning,Dalian,County-Level City,17-01-85
+446,Xingcheng,兴城市,Liaoning,Huludao,County-Level City,12/9/1986
+447,Xinmin,新民市,Liaoning,Shenyang,County-Level City,14-06-93
+448,Yingkou,营口市,Liaoning,direct administration,Prefecture-level city,1/10/1949
+449,Zhuanghe,庄河市,Liaoning,Dalian,County-Level City,21-09-92
+450,Guyuan,固原市,Ningxia,direct administration,Prefecture-level city,7/7/2001
+451,Lingwu,灵武市,Ningxia,Yinchuan,County-Level City,16-09-96
+452,Qingtongxia,青铜峡市,Ningxia,Wuzhong,County-Level City,15-08-60
+453,Shizuishan,石嘴山市,Ningxia,direct administration,Prefecture-level city,7/1/1960
+454,Wuzhong,吴忠市,Ningxia,direct administration,Prefecture-level city,4/10/1950
+455,Yinchuan,银川市,Ningxia,direct administration,Prefecture-level city,1/10/1949
+456,Zhongwei,中卫市,Ningxia,direct administration,Prefecture-level city,31-12-03
+457,Delhi,德令哈市,Qinghai,Haixi,County-Level City,19-04-88
+458,Golmud,格尔木市,Qinghai,Haixi,County-Level City,17-11-60
+459,Haidong,海东市,Qinghai,direct administration,Prefecture-level city,8/2/2013
+460,Xining,西宁市,Qinghai,direct administration,Prefecture-level city,1/10/1949
+461,Yushu,玉树市,Qinghai,Yushu,County-Level City,4/7/2013
+462,Ankang,安康市,Shaanxi,direct administration,Prefecture-level city,28-11-49
+463,Baoji,宝鸡市,Shaanxi,direct administration,Prefecture-level city,1/10/1949
+464,Hancheng,韩城市,Shaanxi,Weinan,County-Level City,9/9/1983
+465,Hanzhong,汉中市,Shaanxi,direct administration,Prefecture-level city,8/12/1949
+466,Huayin,华阴市,Shaanxi,Weinan,County-Level City,27-12-90
+467,Shangluo,商洛市,Shaanxi,direct administration,Prefecture-level city,31-08-01
+468,Tongchuan,铜川市,Shaanxi,direct administration,Prefecture-level city,4/4/1958
+469,Xi'an,西安市,Shaanxi,direct administration,Prefecture-level city,1/10/1949
+470,Xianyang,咸阳市,Shaanxi,direct administration,Prefecture-level city,23-05-52
+471,Xingping,兴平市,Shaanxi,Xianyang,County-Level City,18-06-93
+472,Weinan,渭南市,Shaanxi,direct administration,Prefecture-level city,9/9/1983
+473,Yan'an,延安市,Shaanxi,direct administration,Prefecture-level city,7/2/1972
+474,Yulin,榆林市,Shaanxi,direct administration,Prefecture-level city,1/10/1949
+475,Anqiu,安丘市,Shandong,Weifang,County-Level City,18-01-94
+476,Binzhou,滨州市,Shandong,direct administration,Prefecture-level city,2/8/1982
+477,Changyi,昌邑市,Shandong,Weifang,County-Level City,10/6/1994
+478,Dezhou,德州市,Shandong,direct administration,Prefecture-level city,1/10/1949
+479,Dongying,东营市,Shandong,direct administration,Prefecture-level city,10/11/1982
+480,Feicheng,肥城市,Shandong,Tai'an,County-Level City,1/8/1992
+481,Gaomi,高密市,Shandong,Weifang,County-Level City,18-05-94
+482,Haiyang,海阳市,Shandong,Yantai,County-Level City,29-04-96
+483,Heze,菏泽市,Shandong,direct administration,Prefecture-level city,20-01-60
+484,Jiaozhou,胶州市,Shandong,Qingdao,County-Level City,12/2/1987
+485,Jinan,济南市,Shandong,direct administration,Prefecture-level city,1/10/1949
+486,Jining,济宁市,Shandong,direct administration,Prefecture-level city,1/10/1949
+487,Jimo,即墨市,Shandong,Qingdao,County-Level City,27-07-89
+488,Laiwu,莱芜市,Shandong,direct administration,Prefecture-level city,30-08-83
+489,Laixi,莱西市,Shandong,Qingdao,County-Level City,18-12-90
+490,Laiyang,莱阳市,Shandong,Yantai,County-Level City,20-02-87
+491,Laizhou,莱州市,Shandong,Yantai,County-Level City,24-02-88
+492,Leling,乐陵市,Shandong,Dezhou,County-Level City,1/9/1988
+493,Liaocheng,聊城市,Shandong,direct administration,Prefecture-level city,20-12-58
+494,Linqing,临清市,Shandong,Liaocheng,County-Level City,7/8/1954
+495,Linyi,临沂市,Shandong,direct administration,Prefecture-level city,1/11/1958
+496,Longkou,龙口市,Shandong,Yantai,County-Level City,1/10/1949
+497,Penglai,蓬莱市,Shandong,Yantai,County-Level City,30-11-91
+498,Pingdu,平度市,Shandong,Qingdao,County-Level City,27-07-89
+499,Qingdao,青岛市,Shandong,direct administration,Prefecture-level city,1/10/1949
+500,Qingzhou,青州市,Shandong,Weifang,County-Level City,1/3/1986
+501,Qixia,栖霞市,Shandong,Yantai,County-Level City,30-11-95
+502,Qufu,曲阜市,Shandong,Jining,County-Level City,2/6/1986
+503,Rongcheng,荣成市,Shandong,Weihai,County-Level City,1/11/1988
+504,Rizhao,日照市,Shandong,direct administration,Prefecture-level city,22-03-85
+505,Rushan,乳山市,Shandong,Weihai,County-Level City,17-07-93
+506,Shouguang,寿光市,Shandong,Weifang,County-Level City,1/6/1993
+507,Tai'an,泰安市,Shandong,direct administration,Prefecture-level city,1/6/1958
+508,Tengzhou,滕州市,Shandong,Zaozhuang,County-Level City,7/3/1988
+509,Weifang,潍坊市,Shandong,direct administration,Prefecture-level city,1/10/1949
+510,Weihai,威海市,Shandong,direct administration,Prefecture-level city,1/10/1949
+511,Xintai,新泰市,Shandong,Tai'an,County-Level City,30-08-83
+512,Yantai,烟台市,Shandong,direct administration,Prefecture-level city,1/10/1949
+513,Yucheng,禹城市,Shandong,Dezhou,County-Level City,9/9/1993
+514,Zaozhuang,枣庄市,Shandong,direct administration,Prefecture-level city,7/1/1960
+515,Zhaoyuan,招远市,Shandong,Yantai,County-Level City,21-12-91
+516,Zhucheng,诸城市,Shandong,Weifang,County-Level City,20-04-87
+517,Zoucheng,邹城市,Shandong,Jining,County-Level City,4/10/1992
+518,Zhangqiu,章丘市,Shandong,Jinan,County-Level City,1/8/1992
+519,Zibo,淄博市,Shandong,direct administration,Prefecture-level city,1/10/1949
+520,Changzhi,长治市,Shanxi,direct administration,Prefecture-level city,11/12/1951
+521,Datong,大同市,Shanxi,direct administration,Prefecture-level city,1/10/1949
+522,Fenyang,汾阳市,Shanxi,Lüliang,County-Level City,20-08-96
+523,Gaoping,高平市,Shanxi,Jincheng,County-Level City,12/5/1993
+524,Gujiao,古交市,Shanxi,Taiyuan,County-Level City,24-02-88
+525,Hejin,河津市,Shanxi,Yuncheng,County-Level City,12/1/1994
+526,Houma,侯马市,Shanxi,Linfen,County-Level City,1/10/1958
+527,Huozhou,霍州市,Shanxi,Linfen,County-Level City,23-12-89
+528,Jiexiu,介休市,Shanxi,Jinzhong,County-Level City,10/2/1992
+529,Jincheng,晋城市,Shanxi,direct administration,Prefecture-level city,28-07-83
+530,Jinzhong,晋中市,Shanxi,direct administration,Prefecture-level city,24-09-99
+531,Linfen,临汾市,Shanxi,direct administration,Prefecture-level city,5/6/1971
+532,Lucheng,潞城市,Shanxi,Changzhi,County-Level City,26-04-94
+533,Lüliang,吕梁市,Shanxi,direct administration,Prefecture-level city,23-10-03
+534,Shuozhou,朔州市,Shanxi,direct administration,Prefecture-level city,24-03-88
+535,Taiyuan,太原市,Shanxi,direct administration,Prefecture-level city,1/10/1949
+536,Xiaoyi,孝义市,Shanxi,Lüliang,County-Level City,10/2/1992
+537,Xinzhou,忻州市,Shanxi,direct administration,Prefecture-level city,28-07-83
+538,Yangquan,阳泉市,Shanxi,direct administration,Prefecture-level city,11/12/1951
+539,Yongji,永济市,Shanxi,Yuncheng,County-Level City,12/1/1994
+540,Yuncheng,运城市,Shanxi,direct administration,Prefecture-level city,28-07-83
+541,Yuanping,原平市,Shanxi,Xinzhou,County-Level City,17-06-93
+542,Bazhong,巴中市,Sichuan,direct administration,Prefecture-level city,27-07-93
+543,Chengdu,成都市,Sichuan,direct administration,Prefecture-level city,1/10/1949
+544,Chongzhou,崇州市,Sichuan,Chengdu,County-Level City,20-06-94
+545,Dazhou,达州市,Sichuan,direct administration,Prefecture-level city,4/2/1976
+546,Deyang,德阳市,Sichuan,direct administration,Prefecture-level city,18-08-83
+547,Dujiangyan,都江堰市,Sichuan,Chengdu,County-Level City,3/3/1988
+548,Emeishan,峨眉山市,Sichuan,Leshan,County-Level City,1/9/1988
+549,Guang'an,广安市,Sichuan,direct administration,Prefecture-level city,31-07-98
+550,Guanghan,广汉市,Sichuan,Deyang,County-Level City,24-02-88
+551,Guangyuan,广元市,Sichuan,direct administration,Prefecture-level city,8/2/1985
+552,Huaying,华蓥市,Sichuan,Guang'an,County-Level City,4/2/1985
+553,Jiangyou,江油市,Sichuan,Mianyang,County-Level City,24-02-88
+554,Jianyang,简阳市,Sichuan,Ziyang,County-Level City,5/4/1994
+555,Kangding,康定市,Sichuan,Garzê,County-Level City,17-02-15
+556,Langzhong,阆中市,Sichuan,Nanchong,County-Level City,12/1/1991
+557,Leshan,乐山市,Sichuan,direct administration,Prefecture-level city,16-11-79
+558,Luzhou,泸州市,Sichuan,direct administration,Prefecture-level city,1/10/1949
+559,Mianzhu,绵竹市,Sichuan,Deyang,County-Level City,15-10-96
+560,Meishan,眉山市,Sichuan,direct administration,Prefecture-level city,10/6/2000
+561,Mianyang,绵阳市,Sichuan,direct administration,Prefecture-level city,4/2/1976
+562,Neijiang,内江市,Sichuan,direct administration,Prefecture-level city,1/10/1949
+563,Nanchong,南充市,Sichuan,direct administration,Prefecture-level city,1/10/1949
+564,Panzhihua,攀枝花市,Sichuan,direct administration,Prefecture-level city,22-04-65
+565,Pengzhou,彭州市,Sichuan,Chengdu,County-Level City,1/12/1993
+566,Qionglai,邛崃市,Sichuan,Chengdu,County-Level City,19-06-94
+567,Shifang,什邡市,Sichuan,Deyang,County-Level City,8/11/1995
+568,Suining,遂宁市,Sichuan,direct administration,Prefecture-level city,8/2/1985
+569,Wanyuan,万源市,Sichuan,Dazhou,County-Level City,14-07-93
+570,Xichang,西昌市,Sichuan,Liangshan,County-Level City,19-07-79
+571,Ya'an,雅安市,Sichuan,direct administration,Prefecture-level city,25-07-51
+572,Yibin,宜宾市,Sichuan,direct administration,Prefecture-level city,1/10/1949
+573,Zigong,自贡市,Sichuan,direct administration,Prefecture-level city,4/4/1952
+574,Ziyang,资阳市,Sichuan,direct administration,Prefecture-level city,19-01-93
+575,Lhasa,拉萨市,Tibet,direct administration,Prefecture-level city,7/1/1960
+576,Xigazê,日喀则市,Tibet,direct administration,Prefecture-level city,12/12/1986
+577,Qamdo,昌都市,Tibet,direct administration,Prefecture-level city,29-10-14
+578,Nyingchi,林芝市,Tibet,direct administration,Prefecture-level city,16-03-15
+579,Aksu,阿克苏市,Xinjiang,Aksu,County-Level City,19-08-83
+580,Alashankou,阿拉山口市,Xinjiang,Bortala,County-Level City,17-12-12
+581,Altay,阿勒泰市,Xinjiang,Altay,County-Level City,17-11-84
+582,Aral,阿拉尔市,Xinjiang,none,County-Level City,17-09-02
+583,Artux,阿图什市,Xinjiang,Kizilsu,County-Level City,7/6/1986
+584,Beitun,北屯市,Xinjiang,none,County-Level City,27-12-11
+585,Bole,博乐市,Xinjiang,Bortala,County-Level City,24-06-85
+586,Changji,昌吉市,Xinjiang,Changji,County-Level City,21-07-83
+587,Fukang,阜康市,Xinjiang,Changji,County-Level City,3/11/1992
+588,Yining,伊宁市,Xinjiang,Ili,County-Level City,22-05-53
+589,Hotan,和田市,Xinjiang,Hotan,County-Level City,9/9/1983
+590,Karamay,克拉玛依市,Xinjiang,direct administration,Prefecture-level city,29-05-58
+591,Kashgar,喀什市,Xinjiang,Kashgar,County-Level City,22-05-53
+592,Korgas,霍尔果斯市,Xinjiang,Ili,County-Level City,26-06-14
+593,Kokdala,可克达拉市,Xinjiang,none,County-Level City,16-03-15
+594,Korla,库尔勒市,Xinjiang,Bayingolin,County-Level City,2/9/1979
+595,Kumul,哈密市,Xinjiang,Kumul,County-Level City,25-01-61
+596,Kuytun,奎屯市,Xinjiang,Ili,County-Level City,29-08-75
+597,Shihezi,石河子市,Xinjiang,none,County-Level City,2/1/1976
+598,Shuanghe,双河市,Xinjiang,none,County-Level City,25-01-14
+599,Tumxuk,图木舒克市,Xinjiang,none,County-Level City,17-09-02
+600,Tacheng,塔城市,Xinjiang,Tacheng,County-Level City,17-11-84
+601,Tiemenguan,铁门关市,Xinjiang,none,County-Level City,17-12-12
+602,Turpan,吐鲁番市,Xinjiang,direct administration,Prefecture-level city,16-03-15
+603,Ürümqi,乌鲁木齐市,Xinjiang,direct administration,Prefecture-level city,1/10/1949
+604,Wujiaqu,五家渠市,Xinjiang,none,County-Level City,17-09-02
+605,Wusu,乌苏市,Xinjiang,Tacheng,County-Level City,10/7/1996
+606,Anning,安宁市,Yunnan,Kunming,County-Level City,13-10-95
+607,Baoshan,保山市,Yunnan,direct administration,Prefecture-level city,9/9/1983
+608,Chuxiong,楚雄市,Yunnan,Chuxiong,County-Level City,9/9/1983
+609,Dali,大理市,Yunnan,Dali,County-Level City,13-09-60
+610,Gejiu,个旧市,Yunnan,Honghe,County-Level City,10/1/1951
+611,Jinghong,景洪市,Yunnan,Xishuangbanna,County-Level City,22-12-93
+612,Kaiyuan,开远市,Yunnan,Honghe,County-Level City,18-01-81
+613,Kunming,昆明市,Yunnan,direct administration,Prefecture-level city,1/10/1949
+614,Lincang,临沧市,Yunnan,direct administration,Prefecture-level city,26-12-03
+615,Lijiang,丽江市,Yunnan,direct administration,Prefecture-level city,26-12-02
+616,Mang,芒市,Yunnan,Dehong,County-Level City,28-10-96
+617,Mengzi,蒙自市,Yunnan,Honghe,County-Level City,10/9/2010
+618,Mile,弥勒市,Yunnan,Honghe,County-Level City,24-01-13
+619,Pu'er,普洱市,Yunnan,direct administration,Prefecture-level city,25-03-93
+620,Qujing,曲靖市,Yunnan,direct administration,Prefecture-level city,9/9/1983
+621,Ruili,瑞丽市,Yunnan,Dehong,County-Level City,26-06-92
+622,Shangri-La,香格里拉市,Yunnan,Dêqên,County-Level City,25-12-14
+623,Xuanwei,宣威市,Yunnan,Qujing,County-Level City,18-02-94
+624,Yuxi,玉溪市,Yunnan,direct administration,Prefecture-level city,9/9/1983
+625,Zhaotong,昭通市,Yunnan,direct administration,Prefecture-level city,18-01-81
+626,Cixi,慈溪市,Zhejiang,Ningbo,County-Level City,13-10-88
+627,Dongyang,东阳市,Zhejiang,Jinhua,County-Level City,25-05-88
+628,Fenghua,奉化市,Zhejiang,Ningbo,County-Level City,13-10-88
+629,Haining,海宁市,Zhejiang,Jiaxing,County-Level City,1/3/1986
+630,Hangzhou,杭州市,Zhejiang,direct administration,Prefecture-level city,1/10/1949
+631,Huzhou,湖州市,Zhejiang,direct administration,Prefecture-level city,1/10/1949
+632,Jiande,建德市,Zhejiang,Hangzhou,County-Level City,1/4/1992
+633,Jiangshan,江山市,Zhejiang,Quzhou,County-Level City,27-11-87
+634,Jiaxing,嘉兴市,Zhejiang,direct administration,Prefecture-level city,1/10/1949
+635,Jinhua,金华市,Zhejiang,direct administration,Prefecture-level city,1/10/1949
+636,Lanxi,兰溪市,Zhejiang,Jinhua,County-Level City,1/10/1949
+637,Longquan,龙泉市,Zhejiang,Lishui,County-Level City,26-12-90
+638,Lin'an,临安市,Zhejiang,Hangzhou,County-Level City,28-10-96
+639,Linhai,临海市,Zhejiang,Taizhou,County-Level City,1/3/1986
+640,Lishui,丽水市,Zhejiang,direct administration,Prefecture-level city,1/3/1986
+641,Ningbo,宁波市,Zhejiang,direct administration,Prefecture-level city,1/10/1949
+642,Pinghu,平湖市,Zhejiang,Jiaxing,County-Level City,15-06-91
+643,Quzhou,衢州市,Zhejiang,direct administration,Prefecture-level city,1/10/1949
+644,Ruian,瑞安市,Zhejiang,Wenzhou,County-Level City,15-04-87
+645,Shaoxing,绍兴市,Zhejiang,direct administration,Prefecture-level city,1/10/1949
+646,Shengzhou,嵊州市,Zhejiang,Shaoxing,County-Level City,30-08-95
+647,Taizhou,台州市,Zhejiang,direct administration,Prefecture-level city,22-08-94
+648,Tongxiang,桐乡市,Zhejiang,Jiaxing,County-Level City,26-03-93
+649,Wenling,温岭市,Zhejiang,Taizhou,County-Level City,18-02-94
+650,Wenzhou,温州市,Zhejiang,direct administration,Prefecture-level city,1/10/1949
+651,Yueqing,乐清市,Zhejiang,Wenzhou,County-Level City,18-09-93
+652,Yongkang,永康市,Zhejiang,Jinhua,County-Level City,24-08-92
+653,Yiwu,义乌市,Zhejiang,Jinhua,County-Level City,25-05-88
+654,Yuyao,余姚市,Zhejiang,Ningbo,County-Level City,16-07-85
+655,Zhoushan,舟山市,Zhejiang,direct administration,Prefecture-level city,23-01-87
+656,Zhuji,诸暨市,Zhejiang,Shaoxing,County-Level City,27-09-89
+,,,,,,
+,,,,,,
+"For other information, kindly visit : www.downloadexcelfiles.com",,,,,,

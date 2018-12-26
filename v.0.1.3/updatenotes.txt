@@ -1,0 +1,202 @@
+CommuniSim Update Log
+
+Update 201811100923: re-factored textLog and addNPC to make them cleaner and more self-contained
+Update 201811101109: fixed commitments outlasting death, added mysterious stranger event, re-worked incest warning on whup
+Update 201811101451: re-did full info panel to remove 'relatives' and move fave activities up, highlighted relatives in relationship list; added kill button; moved speed toggle to devdash; customized mysterious stranger to be more mysterious
+Update 201811101609: reworked the meetPeopleTwo function to use rootRead to weight odds; removed attraction decay from evolveRelationships; added modal click to 'Relationships'; reworked charinfopanel to use tables instead of list
+Update 201811101850: a bunch of work with the fullcharinfopanel; made it harder for npcs to commit; 
+Update 201811102318: changed textlog to prepend; fixed popCalc
+ notes: current game on year 87, running for ~90 min, pop 91, seeing relatives normalize as the population expands and cousins are 'forgotten' so that new pop isn't all related to one another; also, old people get super unhappy as their peers/friends die off; performance definitely slowing around year 100; year 158, pop 143, super slow (also ~14000 projectmaterial)
+Update 201811111310: I don't think it's slowing down because of display issues - I think it's the recursion. I need to make the loops smaller. realized updateDash was updating all char panels, regardless of whether npc was alive or dead. changed that.
+ Notes: left it running overnight (about 7 hours) - colony at year 200, pop 160, npc.length==700; families have all stabilized with a 'normal' amount of relatives; there's more incest than I would've expected, but seems to be because there are some people with 13 beauty; still far less actual sex than I would expect - average coicou for npcs is only a few times a year; I suspect it's actually because as the colony expands, the meetpeopletwo function actually isn't weighted enough - they don't interact with the same person often enough; looking closely, it seems the incest is mostly between senior citizens. hmmm.
+ Notes: going to embark on separating some functions out
+Update 201811120800: fixed the character death using displayCHarPanels resetting the order of npcs; now it just uses jquery to remove the dom element. yay. also made kill characters not break/crash the game if no characters left
+ Notes: left it running overnight, at ~50 seconds/100 years, year 275, pop 80 npc.length=1091, two surnames left
+Update 201811121515: reworked key functions to use liveNPC array, came across error in meetpeopletwo, made single people less likely to interact with relatives (curb incest)
+ Notes: error in meetpeopletwo that was causing NaN in certain weights for chooser, after fixing it seems to be better balanced than before, and far more coitus
+ Notes: year 30, 82 pop, 5.6 seconds
+ year 44, 105 pop, 7 seconds; y58, p108, 8.5s;
+ Notes: turned off deathcheck, year 65, p98, 4.9s ;; maybe it's faster using livenpc; dunno; still slowing down over time
+ y38, p108, 6.7s; y44, p116, 10.7s; yr61, p81, 5.3s, npc.l=138; yr81, p80, 5.3s, l=154; success??!! ;y27, p82, l91, 5.1s; y34, p104, l127, 6.5s; y48, p122, l202, 10.2s
+Update 201811122153: adding locations functions and variables, refactoring activities to combine enjoyFunction and textresponse
+ Notes: y174, p80, l=359, 8.4s. yay! altho crash in year 180...; y244, p78, l=295, 7.9s, 4 surnames. yay! no. weirdly - no one is aging. time counter is progressing, but characters aren't aging or getting pregnant. weren't aging because of dayEnd issue; weren't getting pregnant because all but two of the characters were 0 years old.
+  overnight,     y192, p176, l=1619, 174.8s - super slow but pop is HUGE. want to keep it running and allow thanos to cull, but it's moving very slowly
+ y268, p110, l=1674, 83.5s... hmm...
+Update 201811131727: changed doActivity into a character object method; added chooseActivity method and updated game loop; replaced dayEnd with a single loop instead of 3 functions
+Update 201811140830: dunno
+ Notes: y35/p84/l=107/4.8s
+Update 201811150642: changed textlog update loop to prevent looping over entire array; moving script to main.js
+ Notes: y83;p80;l=227;6.3s; y140, p99, l=436, 11.0s; y211, p101, l=936, 16.9s, 1 surname (Riley); overnight: y:340;p:80;l=1928;58.2s;
+Update 20181116: 
+ Notes: overnight: y:413;p:84;l=1795;55.5s; y:438;p:88;l=1925;78.3s; iddea: charPanels and changeHappiness need to be functions so they can be updated and logged, respectively
+  y:482;p:81;l=2140;82.3s; y:506;p:82;l=2247;107.7s
+Update 201811171206: cleared out some more npc array loops, rewrote some description functions
+ Notes: trying to get rid of the npc array, but it's too embedded. but in the process, found that the allRelationships function was still using npc array. changed. seems better. y:259;p:81;l=575;11.5s ; y:293;p:79;l=623;8.3s; y:222;p:93;l=1152;35.5s;
+Update 20181117 : the great refactoring - need to bring down the size of npc array. going to go forward with deleting npcs as they die.
+ Notes: that means changing all rTwos to point to oIndex and relatives to point to oIndex. one of the problems is that if I lose all the direct access to npc oIndex, lots of problems
+    for example: if child is born and father is dead already, can't pull stats for 'genetics'
+    I'd have to change all rTwo searches to loops and checks instead of direct access to npc array
+    so maybe I'll first try a 'clear out the dead' function that can run on gameloop - it will find npcs that have no relatives, no connections that are alive, and remove them from the npc array.
+    wrote a clearDead() function, remains to be seen how it works. at the beginning, the clearDead loop isn't causing any performance issues although that may change down the line. in the long run, I may have it only run every 100th counter or something.
+    ran the new 'cleanup' after getting it working (found an issue with how meetpeopletwo was getting ages) overnight, and it's still slow. going to try setting to 'null' instead of 'undefined' and see if that makes a difference. y:292;p:100;l=1835;80.9 ; also going to set clearDead to run only every 100 days. y:205;p:89;l=1121;22.8s y:228;p:106;l=1298;50.1s no speed change, really, even though half the npc array is now empty/deleted/undefined. everything before npc[483] is empty. [83500, "firstloop 6", "meetloop 499", "deathloop 0", "eventloop 0", "cleardeadloop 56"] clearly it's the meetPeopleTwo loop that is causing the delays. half a second per run. and it's clearly the weightedChooser that's causing the hangup. y:115;p:98;l=639;45.1s; y:117;p:103;l=662;54.6s;
+    69000: (4) [83699, 3, 0, "Nova Shafer"]
+69001: (4) [83699, 4, 0, "Aisha Shafer"]
+69002: (4) [83699, 4, 0, "Ashley Trujillo"]
+69003: (4) [83699, 4, 0, "Odin Trujillo"]
+69004: (4) [83699, 4, 0, "Esmeralda Shafer"]
+69005: (4) [83699, 3, 1, "David Miles"]
+69006: (4) [83699, 4, 0, "Dianna Trujillo"]
+69007: (4) [83699, 4, 0, "Kirsten Shafer"]
+69008: (4) [83699, 4, 0, "Juan Miles"]
+69009: (4) [83699, 4, 0, "Kirk Trujillo"]
+69010: (4) [83699, 3, 0, "Remy Miles"]
+69011: (4) [83699, 3, 0, "Chang Ying Trujillo"]
+69012: (4) [83699, 3, 0, "Edgar Shafer"]
+69013: (4) [83699, 4, 0, "Zachary Trujillo"]
+69014: (4) [83699, 4, 0, "Angel Miles"]
+69015: (4) [83699, 4, 0, "Cade Miles"]
+69016: (4) [83699, 4, 0, "Kristin Shafer"]
+69017: (4) [83699, 4, 0, "Fisher Shafer"]
+69018: (4) [83699, 5, 0, "Savanah Trujillo"]
+69019: (4) [83699, 6, 0, "Kathryn Trujillo"]
+69020: (4) [83699, 4, 0, "Joann Miles"]
+69021: (4) [83699, 4, 0, "Dora Shafer"]
+69022: (4) [83699, 4, 0, "Valeria Shafer"]
+69023: (4) [83699, 4, 0, "Micaela Miles"]
+69024: (4) [83699, 4, 0, "Francesca Trujillo"]
+69025: (4) [83699, 4, 0, "Krista Trujillo"]
+69026: (4) [83699, 3, 0, "Tonia Shafer"]
+69027: (4) [83699, 5, 0, "Michele Miles"]
+69028: (4) [83699, 4, 0, "Derrick Shafer"]
+69029: (4) [83699, 3, 0, "Aspen Shafer"]
+(7) [42999, 3, 0, 0, 0, "Madden Bermudez", "number"]
+working_re.js:756 (7) [42999, 4, 0, 0, 0, "Rashad Wooten", "number"]
+working_re.js:756 (7) [42999, 3, 0, 0, 0, "Lorenzo Padgett", "number"]
+working_re.js:756 (7) [42999, 4, 0, 0, 0, "Bronson Padgett", "number"]
+working_re.js:756 (7) [42999, 2, 0, 0, 0, "Maranda Padgett", "number"]
+working_re.js:756 (7) [42999, 11, 0, 0, 0, "Trace Padgett", "number"]
+working_re.js:756 (7) [42999, 2, 0, 0, 0, "Madeleine Guerrero", "number"]
+working_re.js:756 (7) [42999, 2, 0, 0, 0, "Sidney Bermudez", "number"]
+working_re.js:756 (7) [42999, 1, 0, 0, 0, "Wilson Padgett", "number"]
+    maybe it's the rootread function that's slowing things down? internet says square root is slow... ???
+    after getting rid of rootread: y:169;p:81;l=545;11.7s; doesn't seem faster...
+    [110000, "firstloop 8", "meetloop 65", "deathloop 0", "eventloop 0", "cleardeadloop 20"] y:303;p:81;l=1092;23.5s;
+    y:290;p:80;l=1033;28.9s;  y:292;p:82;l=1040;37.4s;
+    master loop 68; metaloop 0; petloop 0; dash 152 - the dash is taking up a lot of time! 
+    offloaded the relationship descriptors in the popover to a jquery function so it's not constantly updating. HUGE increase in updateDash speed. promising.
+    also rewrote the meetPeopleTwo function to find 2^power less than friendship/attraction. weights it less than just straight friendship and attraction and hopefully faster than sqrt.
+    y:202;p:81;l=1062;5.7s; wow. I think that took care of that. It was all the relationship calculation in updateDash. wow.
+    [75000, "firstloop 4", "meetloop 21", "deathloop 0", "eventloop 0", "cleardeadloop 10"] ; master loop 37; metaloop 0; petloop 0; dash 6
+    with the 'count up exponents' version of weightedChooser in meetPeopleTwo master loop 367; metaloop 0; petloop 0; dash 14. ugh. y:145;p:104;l=676;20.1s; (6) [53000, "firstloop 9", "meetloop 161", "deathloop 0", "eventloop 0", "cleardeadloop 196"]
+    overnight: y:542;p:80;l=1438;30.6s; master loop 516; metaloop 0; petloop 0; dash 6; (6) [198000, "firstloop 9", "meetloop 270", "deathloop 0", "eventloop 0", "cleardeadloop 236"]
+    y:586;p:80;l=1586;39.2s; [214000, "firstloop 15", "meetloop 352", "deathloop 0", "eventloop 0", "cleardeadloop 24"] master loop 393; metaloop 0; petloop 0; dash 12
+    meet loop is still taking a while. I changed isAttached to run before the loop and store to variable so each person doesn't have to cycle through every rTwo on each pass. maybe that'll speed things up. in the long run, maybe there's a better way to choose an interaction partner than the weighted chooser.
+    replaced all the npc.indexOf references with oIndex references in interactWith and whupEee. <- this is the biggie!
+    y:824;p:80;l=2691;10.1s; [301000, "firstloop 7", "meetloop 37", "deathloop 0", "eventloop 0", "cleardeadloop 101"] master loop 147; metaloop 0; petloop 0; dash 13; one surname - 'Love' :)
+    y:901;p:84;l=2955;9.1s; [329000, "firstloop 7", "meetloop 27", "deathloop 0", "eventloop 0", "cleardeadloop 79"] master loop 115; metaloop 0; petloop 0; dash 12
+    y:1049;p:80;l=3486;9.4s; [383000, "firstloop 11", "meetloop 287", "deathloop 0", "eventloop 0", "cleardeadloop 131"] master loop 431; metaloop 0; petloop 0; dash 8
+    y:1153;p:82;l=3886;9.9s; [421000, "firstloop 7", "meetloop 27", "deathloop 0", "eventloop 0", "cleardeadloop 107"] master loop 143; metaloop 0; petloop 0; dash 6
+Update 20181119: changed pregBaseOdds to 1-in-100. putting refactored into main. summary of above - removed lots of loops, lookups, and rootread to get loop speed down and consistent over time. also added clearDead function to remove npc objects once they're 'forgotten' (no relatives, no acquaintances left alive). also added hoverover functionality to the Relationships link on charPanels so it wasn't calculating every loop.
+
+Update 201811200901 v0.1.0: changing thanos to leave first 100 pop; closing this out as v0.1.0. just under 2000 lines of code.
+    Notes: after refactor, Sim started: Mon Nov 19 2018 16:55:17 GMT+0800 
+    pregBaseOdds=50: y:161;p:80;l=337;5.0s; [59000, "firstloop 6", "meetloop 3", "deathloop 0", "eventloop 0", "cleardeadloop 9"] master loop 20; metaloop 1; petloop 0; dash 25
+    y:438;p:112;l=1391;6.8s;  [160000, "firstloop 13", "meetloop 26", "deathloop 0", "eventloop 0", "cleardeadloop 62"] master loop 103; metaloop 0; petloop 0; dash 22
+    y:1005;p:91;l=3310;10.2s; [367000, "firstloop 9", "meetloop 38", "deathloop 0", "eventloop 0", "cleardeadloop 89"] master loop 139; metaloop 0; petloop 0; dash 13
+    y:1887;p:94;l=6707;12.7s; [689000, "firstloop 12", "meetloop 70", "deathloop 0", "eventloop 0", "cleardeadloop 169"] master loop 252; metaloop 0; petloop 0; dash 13; one surname - 'Holmes'
+
+Update 201811210755: added navbar, redid charPanels to use bootstrap panels and remove <hr> tags, added full history/save history functionality, separated names into vnames.js file, added location name to charPanels, removed basic stats from charPanels, adding 'About' page. added 'addHistory()' function instead of manual add to textlog. popcap at 100, pregBaseOdds at 50. fixed syncing and reporting issues with giveBirth and textLog.
+    Notes: y:402;p:103;l=1208;6.6s; [147000, "firstloop 12", "meetloop 11", "deathloop 0", "eventloop 0", "cleardeadloop 24"] master loop 50; metaloop 0; petloop 0; dash 11; two surnames
+    Sim started: Tue Nov 20 2018 22:52:02 GMT+0800 (China Standard Time)
+    y:743;p:120;l=3174;11.1s; [271000, "firstloop 8", "meetloop 51", "deathloop 0", "eventloop 0", "cleardeadloop 111"] master loop 171; metaloop 0; petloop 0; dash 14; two surnames (Peoples, Woodson)
+
+Update 201811221411: added more monument stuff, worked on pet loop, added footer and moved main divs to javascript. added load screen. changed typeface. added discovery tab.
+
+Update 201811241244: added locales, birthrate calculations, trying to shoot for 12 birth rate or so. added emigration event. revised .js files. added place names (India, China, USA). added removeCharacter.
+    trying to prepare npc object for save implementation. removing any methods from interior arrays.
+    Notes: remember to change back
+        age req for explore and projectmaterial, difficulty/rarity of engaging in both
+        requirements for leadership and monuments
+        work on the aboutStats
+        getting close to implementing save. need to consolidate variables and UI.
+    Sim started: Sat Nov 24 2018 10:33:21 GMT+0800 (China Standard Time)
+        y:2721;p:91;l=6176;21.0 [993000, "firstloop 14", "meetloop 70", "deathloop 0", "eventloop 0", "cleardeadloop 125"] master loop 230; metaloop 0; petloop 0; dash 20
+        issue - seems like they're choosing to spend time with large magnitude acquaintances rather than positive large.
+
+Update 201811270935 v.0.1.2: saving has been added using localforage. Immigration and emigration are both active as special events.
+    Notes: localStorage seems to work, although I know it'll crap out when the textlog gets big. need to work on that. this was a big update; saving took a lot of work. and it probably still needs to get debugged.
+        nevermind. localStorage craps out real fast. need to change to localforage, see if that works.
+        localforage seems to work... saw an issue with liveNPC array desyncing from the actual live npcs. perhaps if save got interrupted as someone was dying? async makes things harder, for sure.
+        so now rebuilding liveNPC array by examining the npc array instead of saving/reloading. maybe I should pause while saving? think I should also probably chain the save promises.
+        update 201811261302: chained the save promises. that looks ok... working...
+        I really want to do genomes. hrm hrm. added sha library to use keccak.
+
+Update 201812012050 v.0.1.3: moving Person methods to prototype extensions. also moved locale methods to prototype extensions. added monument to expansion. refactored locales to give individual family populations. added expansion special event.
+    Notes: using .prototype may have actually sped things up. makes me feel better, anyway.
+
+Update : wow. weightedChooser wasn't working right - was overly weighted to array item 0. fixed. added weightedChooserZero to deal with when I want some choices to not show up at all.
+
+PLANNING
+
+Monuments:
+    Monument to Expansion (encourages new settlements)
+    Monument to Fertility (increases birth rate)
+    Monument to Discipline (increases social norm restriction)
+    Monument to Virtue (unknown)
+    Monument to Industry (increases project construction(?))
+    Monument to History (maintains all monuments, allows rediscovery of lapsed monuments)
+    Monument to Isolationism/Juche/Independence (disallows migration)
+
+Saving:
+    figure out what to do with the textlog, and make sure to keep an eye on variables being saved. At some point, it may be necessary to group them together or I'll lose things and debugging will be a nightmare.
+    it didn't take very long for textlog saving to crash the program. turning it off for now. wow damn - npcarray crashed/exceeded quota Uncaught DOMException: Failed to execute 'setItem' on 'Storage': Setting the value of 'npcArray' exceeded the quota.
+
+
+v.0.2.0:
+    finish community expansion and locale splits/expansion, integrating migration to/from community
+        need to figure out relationship scores for locales and community
+    at least up to expansion monument
+
+v.0.3.0:
+    work on the pet - give it something to do
+    'federated communities' and townships as population sinks
+
+v.0.4.0:
+    genotypes and phenotypes
+    learning activities, and getting better at them
+    export to file
+
+v.0.5.0:
+    cultural development
+
+v.0.6.0:
+
+v.0.7.0:
+
+Have a basic idea of what '1.0' might be like.
+    After getting federated communities up and running, will add encounter with 'Others', which will become new tab on nav. model the interaction with a completely foreign culture.
+
+S6mJaBN2LPIg
+http://35.165.177.54/
+/opt/bitnami/apps/firstapp/site.git
+forever start -c "npm start" ./
+Find:
+lsof -i :3000
+Kill:
+kill -9 <PID>
+
+9/19, 100
+9/19, 1000
+9/25, 2000
+10/29, 500
+11/6, 1000
+11/6, 2000
+11/9, 2000
+11/12, 2000
+11/13, 5000
+11/13, 4000
+11/13, 4500
+11/13, 4500
+11/13, 1000
+11/13, 800
+12/3 -10311.37

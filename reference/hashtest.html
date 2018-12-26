@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="A free to play social simulation toy."/>
+    <meta name="keywords" content="free-to-play, social, simulation, toy, communisim, community">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>CommuniSim</title>
+    <link href="https://fonts.googleapis.com/css?family=Assistant|Nunito+Sans" rel="stylesheet">
+    <style type="text/css">
+    body { 
+        padding-top: 60px; 
+        margin-bottom: 40px;
+        font-family: 'Assistant', sans-serif;
+    }
+    .popover{
+        max-width:800px;
+    }
+    .footer {
+        width: 100%;
+        height: 40px; /* Set the fixed height of the footer here */
+        line-height: 40px; /* Vertically center the text there */
+        background-color: #f5f5f5;
+    }
+    </style>
+    <!-- Global site tag (gtag.js) - Google Analytics
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129113601-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-129113601-1');
+        </script> -->
+  </head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="http://communisim.com">CommuniSim</a>
+      </div>
+    </nav>
+<main role="main" class="container" id="maincontainer">
+    <div class="m-3" id="updatelog">
+        CommuniSim is a social simulation toy.<br>
+        Currently in active development.<br>
+        2018.11.24: v.0.1.1<br>
+        2018.11.20: v.0.1.0
+    </div>
+    <div class="m-3" id="testground">
+    </div>
+</main>
+<footer class="footer fixed-bottom text-light bg-dark">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col"><a href="http://communisim.com" class="text-muted">communisim.com</a></div>
+            <div class="col text-right text-muted">
+                <a href="#" target="_blank" class="text-muted">Update Log</a> | 
+                <a href="http://reddit.com/u/cryptot0t" target="_blank" class="text-muted">Contact Dev</a>
+            </div>
+        </div>
+    </div>
+</footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="sha3.min.js"></script>
+    <script src="vnames.js"></script>
+    <script src="utilities.js"></script>
+    
+<script>
+// hash test of randomness
+var plaintext = "form";
+var hashtext = keccak256(plaintext);
+console.log(hashtext);
+$("#testground").append(`${plaintext} is plaintext <br>`);
+$("#testground").append(`${hashtext} is hashtext <br>`);
+var iterations = 1000000;
+var gn = " ";
+var gnhash = keccak256(gn);
+var letters = [];
+for (let j=0;j<gnhash.length;j++) {
+    letters[j] = 0;
+}
+console.log(letters);
+for (let i=0;i<iterations;i++) {
+    gn = pickFrom(girlNames) + pickFrom(girlNames);
+    //console.log(gn);
+    gnhash = keccak256(gn);
+    //$("#testground").append(`${gnhash}<br>`);
+    for (let k=0;k<gnhash.length;k++) {
+        letters[k] += parseInt(gnhash[k], 16);
+    }
+    // $("#testground").append(`${pickFrom(girlNames)} is a girl's name <br>`);
+}
+console.log(letters);
+var granddiff = 0;
+for (let m=1;m<letters.length;m++) {
+    var diff = (letters[m] - letters[m-1])/letters[m];
+    granddiff += diff;
+    $("#testground").append(`${diff} is difference <br>`);
+}
+$("#testground").append(`${granddiff} is granddiff <br>`);
+
+</script>
+
+</body>
+</html>
